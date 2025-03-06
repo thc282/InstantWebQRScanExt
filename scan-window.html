@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="ScreenShotButton">
+        <button class="button bouncy" id="scan-btn">全屏截圖</button>
+        <button class="button bouncy" id="part-scan-btn" style="animation-delay:0.07s">選擇區域截圖</button>
+    </div>
+    <div id="result">
+        <strong>解碼結果:</strong>
+        <span id="other-result"></span><a id="goToWeb"></a>
+    </div>
+    <canvas id="qr-canvas"></canvas>
+    <script src="./js/jsQR.js"></script>
+    <script src="./js/scan-window.js"></script>
+    <script src="./js/fullScan.js"></script>
+    <script src="./js/selectionScan.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    padding: 20px;
+}
+
+#result,
+#ScreenShotButton {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+}
+
+#ScreenShotButton {
+    gap: 1.5rem;
+}
+
+button.button {
+    cursor: default;
+    text-decoration: none;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #686868;
+    background-color: aquamarine;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000000d0;
+    text-align: center;
+    transition: all 0.2s;
+    text-shadow: none;
+}
+
+button.button:hover {
+    filter: invert(0.7);
+}
+
+.bouncy {
+    animation: bouncy 5s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em
+    }
+
+    40% {
+        top: 0em
+    }
+
+    43% {
+        top: -0.9em
+    }
+
+    46% {
+        top: 0em
+    }
+
+    48% {
+        top: -0.4em
+    }
+
+    50% {
+        top: 0em
+    }
+
+    100% {
+        top: 0em;
+    }
+}
+
+#goToWeb, #other-result{
+    width: fit-content;
+}
+
+#qr-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
