@@ -18,7 +18,7 @@ scanBtn.addEventListener('click', () => {
             });
 
             if (code) {
-                console.log(code);
+                //console.log(code);
                 updateResult((code.data == "") ? '無法識別QR code內容' : code.data);
             } else {
                 updateResult('未發現QR code');

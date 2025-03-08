@@ -68,10 +68,6 @@ async function finishSelection(e) {
     endX = e.clientX;
     endY = e.clientY;
 
-    // 計算選擇範圍，加入捲動位置的偏移
-    const scrollX = window.pageXOffset || document.documentElement.scrollLeft;
-    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
-
     const [x, y, width, height] = [
         Math.min(startX, endX),
         Math.min(startY, endY),

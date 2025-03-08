@@ -24,7 +24,7 @@ partScanBtn.addEventListener('click', () => {
         action: 'initAreaSelection',
         //lastWindowId: lastWindowId
     }).then(coord => {
-        console.log('回傳結果', coord);
+        //console.log('回傳結果', coord);
         // 重新激活掃描視窗
         chrome.windows.update(
             -2,

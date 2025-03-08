@@ -90,6 +90,13 @@ Step to installing the extension
 2. Go to browser 3 dot menu -> extension
 3. Turn on the developer mode
 4. Drag and drop the `ZIP` file into the browser
+<details>
+  <summary>Example</summary>
+  <table>
+    <tr><td align="middle">Edge</td><td><img src="./screenshot/EdgeInstall.gif"></td></tr>
+    <tr><td align="middle">Chrome</td><td><img src="./screenshot/ChromeInstall.gif"></td></tr>
+  </table>
+</details>
 
 > I might put in chrome web store in future
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,8 +104,13 @@ Step to installing the extension
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Full Page Scanning
-2. Partial Scanning
+> ### Full Page Scanning  
+![Full Scan](./screenshot/Full_Scan.png)
+---
+> ## Partial Scanning  
+![Part Scan](./screenshot/Selection1.png)
+![Part Scan](./screenshot/Selection2.png)
+![Part Scan](./screenshot/Selection3.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

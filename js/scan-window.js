@@ -21,12 +21,12 @@ function initFromURL() {
 }
 
 // 初始化函數
-async function initialize() {
+function initialize() {
     // 先從 storage 中讀取
     const storedTabId = sessionStorage.getItem('sourceTabId');
     const storedWindowId = sessionStorage.getItem('sourceWindowId');
 
-    console.log(sessionStorage);
+    //console.log(sessionStorage);
     if (storedTabId && storedWindowId) {
         // 如果 storage 中有值，使用存儲的值
         sourceTabId = parseInt(storedTabId);
@@ -44,7 +44,7 @@ async function initialize() {
 }
 
 // 更新 storage 的函數
-async function updateStorage(tabId, windowId) {
+function updateStorage(tabId, windowId) {
     sourceTabId = tabId;
     sourceWindowId = windowId;
     sessionStorage.setItem('sourceTabId', tabId);
