@@ -7,6 +7,7 @@ scanBtn.addEventListener('click', () => {
     chrome.tabs.captureVisibleTab(sourceWindowId, (dataUrl) => {
         const screenshotImage = new Image();
 
+        //showImg(dataUrl, 'full');
         screenshotImage.onload = () => {
             canvas.width = screenshotImage.width;
             canvas.height = screenshotImage.height;

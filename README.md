@@ -86,12 +86,10 @@ But at lease a workable browser
 
 Step to installing the extension
 
-1. Download the file in release
-2. Extract them
-3. Go to browser -> setting -> extension
-4. Turn on the developer mode
-5. Choose Load unpacked (upper left)
-6. Select the folder
+1. Download the `ZIP` file in [release][release]
+2. Go to browser 3 dot menu -> extension
+3. Turn on the developer mode
+4. Drag and drop the `ZIP` file into the browser
 
 > I might put in chrome web store in future
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,8 +107,8 @@ Step to installing the extension
 
 - [x] Add Full Page Scan
 - [x] Add Selection Scan
-- [ ] Add Tab focus
-- [ ] Add Tab Detection
+- [x] Add Tab focus
+- [x] Add Tab Detection
 
 See the [open issues](https://github.com/thc282/InstantWebQRScanExt/issues) for a full list of proposed features (and known issues).
 
@@ -166,3 +164,5 @@ Credit to. I've included a few of my favorites to kick things off!
 [ECMAScript-url]: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
 
 [License]: https://github.com/thc282/InstantWebQRScanExt/blob/main/LICENSE
+
+[release]: https://github.com/thc282/InstantWebQRScanExt/releases/

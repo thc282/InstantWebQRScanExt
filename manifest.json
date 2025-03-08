@@ -6,7 +6,8 @@
         "activeTab",
         "tabs",
         "scripting",
-        "desktopCapture"
+        "desktopCapture",
+        "storage"
     ],
     "host_permissions": [
         "<all_urls>"
